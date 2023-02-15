@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "918f7527f18f9e441b506e170294cf39",
+    "UxmlPath": "Assets/UI Toolkit/UXML files/shopListUXML.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 1250,
+    "CanvasHeight": 820,
+    "MatchGameView": false,
+    "ZoomScale": 1.0,
+    "PanOffset": {
+        "x": 19.999969482421876,
+        "y": 19.499969482421876
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

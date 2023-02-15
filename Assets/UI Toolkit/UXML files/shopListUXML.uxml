@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:VisualElement name="MainElement" style="height: 820px;">
+        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Images/ShoplistPaper.png?fileID=2800000&amp;guid=d2c59166c35baf54493c8ec2fdb6ea94&amp;type=3#ShoplistPaper&apos;); width: 565px; height: 551px; flex-direction: row-reverse; left: 800px; top: -65px; right: auto;" />
+    </ui:VisualElement>
+</ui:UXML>
