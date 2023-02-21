@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class DataStore
 {
+    public List<string> shoppingList= new List<string>();
     public void LockMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    public void UnlockMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
     
     public static DataStore Instance

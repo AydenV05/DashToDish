@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class ShoppingScript : MonoBehaviour
 {
-    [SerializeField] BoxCollider shopRange;
+    
 }

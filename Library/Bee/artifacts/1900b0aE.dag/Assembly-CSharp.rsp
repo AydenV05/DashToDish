@@ -321,6 +321,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Users/thiena/DashToDish/DashToDish/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
@@ -339,9 +340,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Animations/AnimatorController.cs"
 "Assets/Scripts/DataStore.cs"
+"Assets/Scripts/Movement/Crosshair.cs"
 "Assets/Scripts/Movement/LockMouse.cs"
 "Assets/Scripts/Movement/PlayerController.cs"
+"Assets/Scripts/Store/Items.cs"
+"Assets/Scripts/Store/SetupList.cs"
+"Assets/Scripts/Store/ShopListMechs.cs"
+"Assets/Scripts/Store/ShoppingList.cs"
 "Assets/Scripts/Store/ShoppingScript.cs"
 -langversion:9.0
 
