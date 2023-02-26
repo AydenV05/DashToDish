@@ -57,15 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Movement\Crosshair.cs" />
+    <Compile Include="Assets\Scripts\Store\ShoppingList.cs" />
     <Compile Include="Assets\Scripts\Movement\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Store\Items.cs" />
     <Compile Include="Assets\Scripts\Animations\AnimatorController.cs" />
     <Compile Include="Assets\Scripts\Store\ShoppingScript.cs" />
-    <Compile Include="Assets\Scripts\Movement\LockMouse.cs" />
-    <Compile Include="Assets\Scripts\DataStore.cs" />
-    <Compile Include="Assets\Scripts\Store\Items.cs" />
-    <Compile Include="Assets\Scripts\Store\ShoppingList.cs" />
     <Compile Include="Assets\Scripts\Store\ShopListMechs.cs" />
     <Compile Include="Assets\Scripts\Store\SetupList.cs" />
+    <Compile Include="Assets\Scripts\Movement\LockMouse.cs" />
+    <Compile Include="Assets\Scripts\DataStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -741,6 +741,9 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -761,9 +764,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
