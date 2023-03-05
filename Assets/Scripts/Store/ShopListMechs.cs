@@ -12,18 +12,16 @@ public class ShopListMechs : MonoBehaviour
     public float nameOffset = 50f; // The offset of the name from the left edge of the screen
     public float imageOffset = 100f; // The offset of the image from the left edge of the screen
 
+    string markProductName = DataStore.Instance.markProduct;
+
     bool listIsMade = false;
 
 
 
     private void Update()
     {
-        Invoke("MarkTest", 5);
-    }
-
-    void MarkTest()
-    {
-        MarkOffItem("Tomato");
+        markProductName = DataStore.Instance.markProduct;
+        MarkOffItem(markProductName);
     }
     
     void MakeList()
@@ -33,6 +31,7 @@ public class ShopListMechs : MonoBehaviour
             Items item = new Items(name);
             itemLijst.Add(item);
         }
+        DataStore.Instance.shopListItems = itemLijst;
     }
 
     void OnGUI()
@@ -83,18 +82,22 @@ public class ShopListMechs : MonoBehaviour
 
             y += itemSpacing;
         }
-        Debug.Log("GUI Done");
+        //Debug.Log("GUI Done");
     }
 
     public void MarkOffItem(string itemName)
     {
-        foreach (Items item in itemLijst)
+        if (DataStore.Instance.isMarking)
         {
-            if (item.ProductName == itemName)
+            foreach (Items item in itemLijst)
             {
-                item.isCheckedOff = true;
-                break;
+                if (item.ProductName == itemName)
+                {
+                    item.isCheckedOff = true;
+                    break;
+                }
             }
+            DataStore.Instance.isMarking = false;
         }
         DrawStuff();
     }

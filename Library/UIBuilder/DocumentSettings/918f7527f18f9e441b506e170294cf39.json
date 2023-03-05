@@ -3,13 +3,13 @@
     "UxmlPath": "Assets/UI Toolkit/UXML files/shopListUXML.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 1250,
-    "CanvasHeight": 820,
-    "MatchGameView": false,
+    "CanvasWidth": 880,
+    "CanvasHeight": 380,
+    "MatchGameView": true,
     "ZoomScale": 1.0,
     "PanOffset": {
-        "x": 19.999969482421876,
-        "y": 19.499969482421876
+        "x": 24.0,
+        "y": 172.39999389648438
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,

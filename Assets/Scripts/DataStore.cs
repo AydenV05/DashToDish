@@ -5,6 +5,19 @@ using UnityEngine;
 public class DataStore
 {
     public List<string> shoppingList= new List<string>();
+
+    public List<GameObject> shopButtons = new List<GameObject>();
+
+    public List<Items> shopListItems = new List<Items>();
+
+    public bool setMarkName = false;
+
+    public bool isMarking = false;
+
+    public string markProduct = string.Empty;
+
+    public float ElapsedTime;
+
     public void LockMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;

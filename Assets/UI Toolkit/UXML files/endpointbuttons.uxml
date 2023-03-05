@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="justify-content: space-around; height: 108px; align-items: center; flex-basis: 20%; flex-direction: column; flex-wrap: nowrap; padding-left: 15%; padding-right: 15%; margin-top: 30%;">
+            <ui:Button text="Checkout" display-tooltip-when-elided="true" name="ButtonCheckout" class="Button" style="position: absolute; left: 196px; top: -108px; right: 236px; bottom: 99px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(246, 255, 0);" />
+            <ui:Button text="Runnn!" display-tooltip-when-elided="true" name="ButtonSkipCheckout" class="Button" style="position: absolute; left: 199px; top: 32px; right: 201px; bottom: -82px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 170, 23);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

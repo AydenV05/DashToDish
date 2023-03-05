@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="justify-content: space-around; height: 108px; align-items: center; flex-basis: 20%; flex-direction: column; flex-wrap: nowrap; padding-left: 15%; padding-right: 15%; margin-top: 30%;">
+            <ui:Button text="Purchase" display-tooltip-when-elided="true" name="ButtonPurchase" class="Button" style="position: absolute; left: 150px; top: 20px; right: 171px; bottom: -59px; background-color: rgb(77, 255, 0);" />
+            <ui:Button text="Cancel" display-tooltip-when-elided="true" name="ButtonCancel" class="Button" style="position: absolute; left: 150px; top: -110px; right: 171px; bottom: 71px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 0, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

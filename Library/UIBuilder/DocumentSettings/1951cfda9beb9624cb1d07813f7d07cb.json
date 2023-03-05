@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "1951cfda9beb9624cb1d07813f7d07cb",
+    "UxmlPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 833,
+    "CanvasHeight": 468,
+    "MatchGameView": true,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": 266.25,
+        "y": 58.70001220703125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

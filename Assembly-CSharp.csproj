@@ -64,14 +64,18 @@
     <Compile Include="Assets\Scripts\Store\ShoppingScript.cs" />
     <Compile Include="Assets\Scripts\Store\ShopListMechs.cs" />
     <Compile Include="Assets\Scripts\Store\SetupList.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\ShopButtonScrpiting.cs" />
     <Compile Include="Assets\Scripts\Movement\LockMouse.cs" />
     <Compile Include="Assets\Scripts\DataStore.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\CheckoutButtons.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
+    <Compile Include="Assets\Scripts\Store\Checkout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\UI Toolkit\UXML files\shopListUXML.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\endpointbuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -82,9 +86,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\UI Toolkit\UXML files\textcheckout.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\UI Toolkit\UXML files\shopbuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\KitchenInteriors\Customizable Kitchen Pack\KitchenPackDocs.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

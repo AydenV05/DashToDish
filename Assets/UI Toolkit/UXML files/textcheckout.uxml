@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="justify-content: space-around; height: 108px; align-items: center; flex-basis: 20%; flex-direction: column; flex-wrap: nowrap; padding-left: 15%; padding-right: 15%; margin-top: 30%;">
+            <ui:Label text="List not &#10;completed yet!" display-tooltip-when-elided="true" class="Text" style="font-size: 75px; position: absolute; left: 5px; top: -150px; right: 39px; bottom: -120px; flex-grow: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

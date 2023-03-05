@@ -345,11 +345,15 @@
 "Assets/Scripts/Movement/Crosshair.cs"
 "Assets/Scripts/Movement/LockMouse.cs"
 "Assets/Scripts/Movement/PlayerController.cs"
+"Assets/Scripts/Store/Checkout.cs"
 "Assets/Scripts/Store/Items.cs"
 "Assets/Scripts/Store/SetupList.cs"
 "Assets/Scripts/Store/ShopListMechs.cs"
 "Assets/Scripts/Store/ShoppingList.cs"
 "Assets/Scripts/Store/ShoppingScript.cs"
+"Assets/Scripts/TimerScript.cs"
+"Assets/UI Toolkit/Scripts/CheckoutButtons.cs"
+"Assets/UI Toolkit/Scripts/ShopButtonScrpiting.cs"
 -langversion:9.0
 
 /deterministic

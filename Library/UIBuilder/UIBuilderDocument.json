@@ -29,10 +29,10 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/shopListUXML.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "918f7527f18f9e441b506e170294cf39",
+                    "guid": "1951cfda9beb9624cb1d07813f7d07cb",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -41,17 +41,17 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "918f7527f18f9e441b506e170294cf39",
-                    "UxmlPath": "Assets/UI Toolkit/UXML files/shopListUXML.uxml",
+                    "UxmlGuid": "1951cfda9beb9624cb1d07813f7d07cb",
+                    "UxmlPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 1250,
-                    "CanvasHeight": 820,
-                    "MatchGameView": false,
-                    "ZoomScale": 1.0,
+                    "CanvasWidth": 640,
+                    "CanvasHeight": 480,
+                    "MatchGameView": true,
+                    "ZoomScale": 0.75,
                     "PanOffset": {
-                        "x": 19.999969482421876,
-                        "y": 19.499969482421876
+                        "x": 266.25,
+                        "y": 58.70001220703125
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
