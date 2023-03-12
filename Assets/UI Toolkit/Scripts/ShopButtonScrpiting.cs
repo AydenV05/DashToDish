@@ -5,9 +5,6 @@ using UnityEngine.UIElements;
 
 public class ShopButtonScrpiting : MonoBehaviour
 {
-    [SerializeField] GameObject UIDoc;
-
-    public GameObject shoplist=null;
     private void OnEnable()
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
@@ -30,6 +27,7 @@ public class ShopButtonScrpiting : MonoBehaviour
     void PurchaseButton()
     {
         DataStore.Instance.setMarkName = true;
+        Debug.Log(DataStore.Instance.setMarkName.ToString());
         Debug.Log("Purchased!");
         DataStore.Instance.LockMouse();
         DestroyButtons();

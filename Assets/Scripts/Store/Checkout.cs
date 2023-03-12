@@ -9,6 +9,8 @@ public class Checkout : MonoBehaviour
 
     [SerializeField] GameObject TextPrefab;
 
+    [SerializeField] GameObject listImage;
+
     private void Start()
     {
         TextPrefab.SetActive(false);
@@ -26,6 +28,7 @@ public class Checkout : MonoBehaviour
             if (item.isCheckedOff)
             {
                 completionCount++;
+                
             }
         }
 
@@ -47,6 +50,8 @@ public class Checkout : MonoBehaviour
             if (other.gameObject.tag == "Player")
             {
                 Instantiate(buttonPrefab);
+                DataStore.Instance.UnlockMouse();
+                StartCoroutine(DelayInstantiation());
             }
         }
         if (!CheckCompletion())
@@ -57,8 +62,15 @@ public class Checkout : MonoBehaviour
 
     IEnumerator ShowText()
     {
+        listImage.SetActive(false);
         TextPrefab.SetActive(true);
         yield return new WaitForSeconds(3);
         TextPrefab.SetActive(false);
+        listImage.SetActive(true);
+    }
+
+    IEnumerator DelayInstantiation()
+    {
+        yield return new WaitForSeconds(3);
     }
 }

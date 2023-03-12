@@ -22,6 +22,7 @@ public class ShopListMechs : MonoBehaviour
     {
         markProductName = DataStore.Instance.markProduct;
         MarkOffItem(markProductName);
+        DrawStuff();
     }
     
     void MakeList()
@@ -69,7 +70,20 @@ public class ShopListMechs : MonoBehaviour
         {
             // Draw the item name
             GUI.depth = 1; // set depth to ensure text is always rendered on top
-            GUI.color = item.isCheckedOff ? Color.green : Color.black; // Set color to green if item is marked off
+            GUI.color =item.isPickedUp? Color.yellow: item.isCheckedOff ? Color.green : Color.black;
+
+            /*if (item.isCheckedOff)
+            {
+                GUI.color = Color.green; // Set color to green if item is marked off
+            }
+            else if (item.isPickedUp)
+            {
+                GUI.color = Color.yellow; // Set color to yellow if item is picked up
+            }
+            else
+            {
+                GUI.color = Color.black; // Set color to black if item is neither marked off nor picked up
+            }*/
             GUI.Label(new Rect(nameOffset, y, 200f, 20f), item.ProductName);
 
 
@@ -94,10 +108,12 @@ public class ShopListMechs : MonoBehaviour
                 if (item.ProductName == itemName)
                 {
                     item.isCheckedOff = true;
+                    DataStore.Instance.isMarking = false;
+                    Debug.Log("Item Checked off: " + item.ProductName);
                     break;
                 }
             }
-            DataStore.Instance.isMarking = false;
+            
         }
         DrawStuff();
     }

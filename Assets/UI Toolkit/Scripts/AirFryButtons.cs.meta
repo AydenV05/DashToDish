@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a2dca6fcd78a1c242884d18ecb612307
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - timerLabel: {fileID: 6214020630738569074, guid: 6afae9f3922b8bd488a8754b3855d28e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

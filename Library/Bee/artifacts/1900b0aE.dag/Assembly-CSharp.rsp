@@ -342,6 +342,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Animations/AnimatorController.cs"
 "Assets/Scripts/DataStore.cs"
+"Assets/Scripts/Kitchen/AirFry.cs"
+"Assets/Scripts/Kitchen/Cooking.cs"
+"Assets/Scripts/Kitchen/Fridge.cs"
 "Assets/Scripts/Movement/Crosshair.cs"
 "Assets/Scripts/Movement/LockMouse.cs"
 "Assets/Scripts/Movement/PlayerController.cs"
@@ -352,8 +355,11 @@
 "Assets/Scripts/Store/ShoppingList.cs"
 "Assets/Scripts/Store/ShoppingScript.cs"
 "Assets/Scripts/TimerScript.cs"
+"Assets/UI Toolkit/Scripts/AirFryButtons.cs"
 "Assets/UI Toolkit/Scripts/CheckoutButtons.cs"
+"Assets/UI Toolkit/Scripts/CookButtons.cs"
 "Assets/UI Toolkit/Scripts/ShopButtonScrpiting.cs"
+"Assets/UI Toolkit/Scripts/TimerController.cs"
 -langversion:9.0
 
 /deterministic

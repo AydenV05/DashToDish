@@ -3,13 +3,13 @@
     "UxmlPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 833,
-    "CanvasHeight": 468,
+    "CanvasWidth": 1045,
+    "CanvasHeight": 588,
     "MatchGameView": true,
-    "ZoomScale": 0.75,
+    "ZoomScale": 0.25,
     "PanOffset": {
-        "x": 266.25,
-        "y": 58.70001220703125
+        "x": 228.08334350585938,
+        "y": 249.39999389648438
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,

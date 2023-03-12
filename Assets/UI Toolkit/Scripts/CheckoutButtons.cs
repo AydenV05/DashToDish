@@ -19,17 +19,19 @@ public class CheckoutButtons : MonoBehaviour
 
     void CheckoutButton()
     {
-        Invoke("LoadKitchen", 3);
+        Invoke("LoadKitchen", 2);
         float waitingTime = Random.Range(5, 20);
         DataStore.Instance.ElapsedTime += waitingTime;
         DestroyButtons();
+        DataStore.Instance.LockMouse();
     }
 
     void SkipButton()
     {
-        Invoke("LoadKitchen", 3);
+        Invoke("LoadKitchen", 2);
         DataStore.Instance.ElapsedTime += 12.5f;
         DestroyButtons();
+        DataStore.Instance.LockMouse();
     }
 
     void LoadKitchen()

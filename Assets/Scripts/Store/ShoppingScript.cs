@@ -30,9 +30,9 @@ public class ShoppingScript : MonoBehaviour
 
     [SerializeField] GameObject display;
 
-    Renderer displayRenderer;
+    bool colliderIsTriggered = false;
 
-    Material displayMat;
+    Renderer displayRenderer;
 
     [SerializeField] Material matTomato;
     [SerializeField] Material matFries;
@@ -61,25 +61,36 @@ public class ShoppingScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            if (DataStore.Instance.shopButtons.Count == 0)
+            if (!colliderIsTriggered)
             {
-                GameObject buttons = Instantiate(buttonsPrefab);
-                DataStore.Instance.shopButtons.Add(buttons);
-                DataStore.Instance.UnlockMouse();
-            }            
+                if (DataStore.Instance.shopButtons.Count == 0)
+                {
+                    GameObject buttons = Instantiate(buttonsPrefab);
+                    DataStore.Instance.shopButtons.Add(buttons);
+                    DataStore.Instance.UnlockMouse();
+
+                    colliderIsTriggered = true;
+                }
+            }
+             
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        colliderIsTriggered = false;
+        DestroyButtons();
     }
 
     private void Update()
     {
         SetMarkName();
-        
     }
 
 
     void SetMarkName()
     {
-        if (DataStore.Instance.setMarkName)
+        if (DataStore.Instance.setMarkName && colliderIsTriggered)
         {
             switch (markname)
             {
@@ -128,7 +139,9 @@ public class ShoppingScript : MonoBehaviour
                 case MarkName.Chicken:
                     DataStore.Instance.markProduct = "Chicken";
                     break;
+
             }
+            Debug.Log("markProduct set to:" + DataStore.Instance.markProduct);
             DataStore.Instance.setMarkName = false;
             DataStore.Instance.isMarking = true;
         }
@@ -183,6 +196,15 @@ public class ShoppingScript : MonoBehaviour
             case MarkName.Chicken:
                 displayRenderer.material = matChicken;
                 break;
+        }
+    }
+
+    void DestroyButtons()
+    {
+        foreach (var buttons in DataStore.Instance.shopButtons)
+        {
+            Destroy(buttons);
+            DataStore.Instance.shopButtons.Remove(buttons);
         }
     }
 }

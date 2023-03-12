@@ -7,6 +7,7 @@ public enum Dishes
     Spaghetti,
     SteakFries,
     TomatoSoup,
+    Fries,
     None
 }
 
@@ -30,6 +31,8 @@ public class SetupList : MonoBehaviour
             case Dishes.SteakFries: Ingreds = new List<string>() { "Meat", "Fries" };
                 break;
             case Dishes.TomatoSoup: Ingreds = new List<string>() { "Tomato", "Carrot", "Water", "Beans" };
+                break;
+            case Dishes.Fries:Ingreds = new List<string>() { "Fries" };
                 break;
             case Dishes.None: Ingreds = new List<string>();
                 break;

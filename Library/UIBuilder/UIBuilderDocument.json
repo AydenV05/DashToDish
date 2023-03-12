@@ -29,29 +29,27 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/cookTimeText.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "1951cfda9beb9624cb1d07813f7d07cb",
+                    "guid": "24669e6f796c27c41af7ea2eccb6fcf4",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "fileID": 7433441132597879392,
-                    "guid": "68812d6104e838046a834a99d14a6d6e",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "1951cfda9beb9624cb1d07813f7d07cb",
-                    "UxmlPath": "Assets/UI Toolkit/UXML files/textcheckout.uxml",
+                    "UxmlGuid": "24669e6f796c27c41af7ea2eccb6fcf4",
+                    "UxmlPath": "Assets/cookTimeText.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 640,
                     "CanvasHeight": 480,
-                    "MatchGameView": true,
-                    "ZoomScale": 0.75,
+                    "MatchGameView": false,
+                    "ZoomScale": 1.0,
                     "PanOffset": {
-                        "x": 266.25,
-                        "y": 58.70001220703125
+                        "x": 144.0,
+                        "y": 75.20001220703125
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

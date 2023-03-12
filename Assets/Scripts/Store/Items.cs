@@ -7,12 +7,19 @@ public class Items
 
     public bool isCheckedOff;
 
+    public bool isPickedUp;
+
 
 
     public Items(string productName)
     {
         ProductName = productName;
         PickPicture(productName);
+    }
+
+    public override string ToString()
+    {
+        return "ProductName: "+ProductName+", IsCheckedOff: "+isCheckedOff+", isPickedUp"+isPickedUp;
     }
 
     private Texture2D PickPicture(string name)

@@ -56,7 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Store\Checkout.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\CheckoutButtons.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\CookButtons.cs" />
     <Compile Include="Assets\Scripts\Movement\Crosshair.cs" />
+    <Compile Include="Assets\Scripts\Kitchen\Cooking.cs" />
     <Compile Include="Assets\Scripts\Store\ShoppingList.cs" />
     <Compile Include="Assets\Scripts\Movement\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Store\Items.cs" />
@@ -64,12 +68,14 @@
     <Compile Include="Assets\Scripts\Store\ShoppingScript.cs" />
     <Compile Include="Assets\Scripts\Store\ShopListMechs.cs" />
     <Compile Include="Assets\Scripts\Store\SetupList.cs" />
+    <Compile Include="Assets\Scripts\Kitchen\AirFry.cs" />
     <Compile Include="Assets\UI Toolkit\Scripts\ShopButtonScrpiting.cs" />
     <Compile Include="Assets\Scripts\Movement\LockMouse.cs" />
+    <Compile Include="Assets\Scripts\Kitchen\Fridge.cs" />
     <Compile Include="Assets\Scripts\DataStore.cs" />
-    <Compile Include="Assets\UI Toolkit\Scripts\CheckoutButtons.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
-    <Compile Include="Assets\Scripts\Store\Checkout.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\AirFryButtons.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\TimerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -78,6 +84,8 @@
     <None Include="Assets\UI Toolkit\UXML files\endpointbuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\cookTimeText.uxml" />
+    <None Include="Assets\UI Toolkit\UXML files\fridgebuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -87,6 +95,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\UI Toolkit\UXML files\textcheckout.uxml" />
+    <None Include="Assets\UI Toolkit\UXML files\textairfryer.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -95,6 +104,7 @@
     <None Include="Assets\KitchenInteriors\Customizable Kitchen Pack\KitchenPackDocs.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\airfryButtons.uxml" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />

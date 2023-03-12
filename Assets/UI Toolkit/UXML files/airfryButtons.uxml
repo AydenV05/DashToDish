@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:Button text="Cancel" display-tooltip-when-elided="true" name="CancelButton" class="Button" style="position: absolute; align-items: auto; left: 33px; top: 208px; margin-left: 20px; transform-origin: left; right: auto; bottom: auto; background-color: rgba(255, 0, 0, 255);" />
+    <ui:Button text="FryButton" display-tooltip-when-elided="true" name="FryButton" class="Button" style="position: absolute; align-items: auto; left: 296px; top: 208px; margin-left: 20px; transform-origin: left; right: auto; bottom: auto; background-color: rgba(50, 255, 0, 255);" />
+</ui:UXML>

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6d6cb8846ceb3f846823f09b4c1bb8fa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AirFryText: {fileID: 5261879839855541610, guid: 286ab9d6fe4f3af4fa9c1f2f0a9e9831, type: 3}
+  - AirFryButtons: {fileID: 2761613922920384948, guid: 6e7442e5f2c476b4da85fb603285fae0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

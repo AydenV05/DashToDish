@@ -42,15 +42,19 @@ public class PlayerController : MonoBehaviour
 
     void UpdateMouse()
     {
-        Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        if (DataStore.Instance.shopButtons.Count == 0)
+        {
+            Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
-        currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetMouseDelta, ref currentMouseDeltaVelocity, mouseSmoothTime);
+            currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetMouseDelta, ref currentMouseDeltaVelocity, mouseSmoothTime);
 
 
-        camPitch -= currentMouseDelta.y*mouseSens;
-        camPitch = Mathf.Clamp(camPitch, -90, 90);
-        playerCam.localEulerAngles = Vector3.right * camPitch;
-        transform.Rotate(Vector3.up, currentMouseDelta.x*mouseSens);
+            camPitch -= currentMouseDelta.y * mouseSens;
+            camPitch = Mathf.Clamp(camPitch, -90, 90);
+            playerCam.localEulerAngles = Vector3.right * camPitch;
+            transform.Rotate(Vector3.up, currentMouseDelta.x * mouseSens);
+        }
+        
     }
 
     void UpdateMovement()

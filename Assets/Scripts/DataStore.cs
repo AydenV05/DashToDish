@@ -10,6 +10,8 @@ public class DataStore
 
     public List<Items> shopListItems = new List<Items>();
 
+    public List<Items> Inventory=new List<Items>();
+
     public bool setMarkName = false;
 
     public bool isMarking = false;
@@ -17,6 +19,8 @@ public class DataStore
     public string markProduct = string.Empty;
 
     public float ElapsedTime;
+
+    public bool itemNeedPickup = false;
 
     public void LockMouse()
     {

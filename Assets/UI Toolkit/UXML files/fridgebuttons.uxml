@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:Button text="Pickup Item" display-tooltip-when-elided="true" name="ItemButton" class="Button" style="height: 126px; width: 223px; position: absolute; top: 156px; left: 283px; right: auto; bottom: auto; background-color: rgb(29, 255, 0);" />
+    <ui:Button text="Cancel" display-tooltip-when-elided="true" name="CancelButton" class="Button" style="height: 125px; width: 217px; position: absolute; top: 158px; left: 41px; right: auto; bottom: auto; background-color: rgb(255, 0, 0);" />
+</ui:UXML>

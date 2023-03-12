@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
+    <ui:Label text="Label" display-tooltip-when-elided="true" name="CookTimeLabel" class="Text" style="font-size: 35px; -unity-text-align: upper-center; -unity-text-outline-color: rgb(115, 7, 7); color: rgb(255, 0, 0); -unity-text-outline-width: 0.5px; text-shadow: 0 0 4px rgb(192, 248, 0); background-color: rgba(125, 125, 125, 0);" />
+</ui:UXML>
