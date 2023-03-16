@@ -3,13 +3,13 @@
     "UxmlPath": "Assets/cookTimeText.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 640,
-    "CanvasHeight": 480,
+    "CanvasWidth": 445,
+    "CanvasHeight": 342,
     "MatchGameView": false,
     "ZoomScale": 1.0,
     "PanOffset": {
-        "x": 144.0,
-        "y": 75.20001220703125
+        "x": 23.0,
+        "y": 26.0
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,

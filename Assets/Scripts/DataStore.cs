@@ -8,6 +8,8 @@ public class DataStore
 
     public List<GameObject> shopButtons = new List<GameObject>();
 
+    public List<GameObject> timeLabels= new List<GameObject>();
+
     public List<Items> shopListItems = new List<Items>();
 
     public List<Items> Inventory=new List<Items>();
@@ -18,10 +20,23 @@ public class DataStore
 
     public string markProduct = string.Empty;
 
-    public float ElapsedTime;
+    public float SecondsElapsed;
+
+    public float MinutesElapsed;
 
     public bool itemNeedPickup = false;
 
+    public string PickedUpItem = string.Empty;
+
+    public Dishes selectedDish;
+
+    //HighScores
+    public float HSSpaghetti;
+    public float HSSteakFries;
+    public float HSTomatoSoup;
+    public float HSFries;
+
+    
     public void LockMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;

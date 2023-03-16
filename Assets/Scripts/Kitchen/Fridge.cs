@@ -19,7 +19,10 @@ public class Fridge : MonoBehaviour
             GameObject button = Instantiate(buttonUIDoc);
             DataStore.Instance.shopButtons.Add(button);
         }
-
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        DataStore.Instance.LockMouse();
     }
 
     void DestroyButtons()

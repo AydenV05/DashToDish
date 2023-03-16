@@ -19,7 +19,7 @@ public class AirFryButtons : MonoBehaviour
 
     void FryButton()
     {
-        Instantiate(timerLabel);
+        DataStore.Instance.timeLabels.Add(Instantiate(timerLabel));
         DataStore.Instance.LockMouse();
         DestroyButtons();
     }

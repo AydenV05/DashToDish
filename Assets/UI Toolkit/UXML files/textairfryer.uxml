@@ -1,4 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/Stylesheets/stylesheet.uss?fileID=7433441132597879392&amp;guid=68812d6104e838046a834a99d14a6d6e&amp;type=3#stylesheet" />
-    <ui:Label text="Wrong place, &#10;Go to the &#10;cooking  fire or to&#10;the fridge if you &#10;haven&apos;t picked up &#10;anything yet" display-tooltip-when-elided="true" class="Text" style="font-size: 75px;" />
-</ui:UXML>

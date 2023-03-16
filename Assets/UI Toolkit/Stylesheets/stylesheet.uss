@@ -17,7 +17,9 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    -unity-text-outline-color: rgba(255, 255, 255, 255);
+    -unity-text-outline-color: rgb(255, 255, 255);
     -unity-text-outline-width: 0.1px;
     background-color: rgba(159, 159, 159, 0);
+    -unity-font: url('project://database/Assets/Fonts/Permanent_Marker/PermanentMarker-Regular.ttf?fileID=12800000&guid=5ced0519b95953f4998bc5a62fe1f093&type=3#PermanentMarker-Regular');
+    -unity-font-style: bold-and-italic;
 }

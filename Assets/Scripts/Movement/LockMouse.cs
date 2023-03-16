@@ -17,6 +17,13 @@ public class LockMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (DataStore.Instance.shopButtons.Count == 0)
+        {
+            DataStore.Instance.LockMouse();
+        }
+        else
+        {
+            DataStore.Instance.UnlockMouse();
+        }
     }
 }

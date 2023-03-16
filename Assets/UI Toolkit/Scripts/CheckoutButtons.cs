@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class CheckoutButtons : MonoBehaviour
 {
@@ -19,9 +17,10 @@ public class CheckoutButtons : MonoBehaviour
 
     void CheckoutButton()
     {
+        
         Invoke("LoadKitchen", 2);
         float waitingTime = Random.Range(5, 20);
-        DataStore.Instance.ElapsedTime += waitingTime;
+        DataStore.Instance.SecondsElapsed += waitingTime;
         DestroyButtons();
         DataStore.Instance.LockMouse();
     }
@@ -29,7 +28,7 @@ public class CheckoutButtons : MonoBehaviour
     void SkipButton()
     {
         Invoke("LoadKitchen", 2);
-        DataStore.Instance.ElapsedTime += 12.5f;
+        DataStore.Instance.SecondsElapsed += 12.5f;
         DestroyButtons();
         DataStore.Instance.LockMouse();
     }
@@ -38,6 +37,9 @@ public class CheckoutButtons : MonoBehaviour
     {
         SceneManager.LoadScene("KitchenScene");
     }
+
+
+
 
     void DestroyButtons()
     {

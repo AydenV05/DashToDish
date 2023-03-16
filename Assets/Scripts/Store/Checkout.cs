@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Checkout : MonoBehaviour
@@ -49,7 +50,7 @@ public class Checkout : MonoBehaviour
         {
             if (other.gameObject.tag == "Player")
             {
-                Instantiate(buttonPrefab);
+                DataStore.Instance.shopButtons.Add(Instantiate(buttonPrefab));
                 DataStore.Instance.UnlockMouse();
                 StartCoroutine(DelayInstantiation());
             }
