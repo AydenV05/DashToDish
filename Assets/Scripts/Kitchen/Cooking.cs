@@ -12,27 +12,32 @@ public class Cooking : MonoBehaviour
     {
         PickupItem();
         DataStore.Instance.Inventory = Inventory;
+        InvRemoveCheckoffs();
     }
 
     void PickupItem()
     {
         if (DataStore.Instance.itemNeedPickup)
         {
-            for (int i = 0; i < DataStore.Instance.shopListItems.Count; i++)
+            if (Inventory.Count == 0)
             {
-                if (!CheckPickup(i) && !CheckCheckOff(i))
+                for (int i = 0; i < DataStore.Instance.shopListItems.Count; i++)
                 {
-                    Items item = DataStore.Instance.shopListItems[i];
-                    Debug.Log(item.ToString());
-                    Inventory.Add(item);
-                    DataStore.Instance.shopListItems[i].isPickedUp = true;
-                    DataStore.Instance.PickedUpItem=DataStore.Instance.shopListItems[i].ProductName;
-                    Debug.Log(item.ToString());
+                    if (!CheckPickup(i) && !CheckCheckOff(i))
+                    {
+                        Items item = DataStore.Instance.shopListItems[i];
+                        Debug.Log(item.ToString());
+                        Inventory.Add(item);
+                        DataStore.Instance.shopListItems[i].isPickedUp = true;
+                        DataStore.Instance.PickedUpItem = DataStore.Instance.shopListItems[i].ProductName;
+                        Debug.Log(item.ToString());
 
-                    DataStore.Instance.itemNeedPickup = false;
-                    break;
+                        DataStore.Instance.itemNeedPickup = false;
+                        break;
+                    }
                 }
             }
+            
 
         }
     }
@@ -61,6 +66,16 @@ public class Cooking : MonoBehaviour
         }
     }
 
+    void InvRemoveCheckoffs()
+    {
+        foreach(Items item in Inventory)
+        {
+            if (item.isCheckedOff)
+            {
+                Inventory.Remove(item);
+            }
+        }
+    }
 
 
 

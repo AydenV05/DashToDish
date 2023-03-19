@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="background-image: url(&apos;project://database/Assets/Images/DTDbg.jpg?fileID=2800000&amp;guid=82503937c3146724e8309fd9c6427e81&amp;type=3#DTDbg&apos;); width: 642px; height: 512px;">
+        <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="MenuButton" style="height: 82px; width: 179px; position: relative; top: 21%; left: 54%; -unity-font: url(&apos;project://database/Assets/Fonts/Permanent_Marker/PermanentMarker-Regular.ttf?fileID=12800000&amp;guid=5ced0519b95953f4998bc5a62fe1f093&amp;type=3#PermanentMarker-Regular&apos;); color: rgb(0, 6, 255); font-size: 30px; background-color: rgba(253, 65, 65, 0);" />
+        <ui:Label text="Score" display-tooltip-when-elided="true" name="ScoreLabel" style="position: relative; top: 30%; left: 55%; height: 41px; width: 224px; font-size: 30px; color: rgb(0, 4, 255); background-color: rgba(255, 95, 95, 0);" />
+        <ui:Label text="HS:" display-tooltip-when-elided="true" name="HSLabel" style="position: relative; top: 30%; left: 55%; height: 43px; width: 222px; font-size: 25px; color: rgb(0, 4, 255); background-color: rgba(255, 0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

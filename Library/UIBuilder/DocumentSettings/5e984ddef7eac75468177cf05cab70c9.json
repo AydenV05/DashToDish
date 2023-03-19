@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "5e984ddef7eac75468177cf05cab70c9",
+    "UxmlPath": "Assets/UI Toolkit/UXML files/pausemenu.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 790,
+    "CanvasHeight": 444,
+    "MatchGameView": true,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": 118.80000305175781,
+        "y": 142.95001220703126
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

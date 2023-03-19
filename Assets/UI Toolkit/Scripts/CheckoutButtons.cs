@@ -16,26 +16,20 @@ public class CheckoutButtons : MonoBehaviour
     }
 
     void CheckoutButton()
-    {
-        
-        Invoke("LoadKitchen", 2);
+    {     
         float waitingTime = Random.Range(5, 20);
         DataStore.Instance.SecondsElapsed += waitingTime;
-        DestroyButtons();
         DataStore.Instance.LockMouse();
+        SceneManager.LoadScene("KitchenScene");
+        DestroyButtons();
     }
 
     void SkipButton()
     {
-        Invoke("LoadKitchen", 2);
         DataStore.Instance.SecondsElapsed += 12.5f;
-        DestroyButtons();
         DataStore.Instance.LockMouse();
-    }
-
-    void LoadKitchen()
-    {
         SceneManager.LoadScene("KitchenScene");
+        DestroyButtons();        
     }
 
 

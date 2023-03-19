@@ -62,9 +62,12 @@
     <Compile Include="Assets\UI Toolkit\Scripts\CookButtons.cs" />
     <Compile Include="Assets\Scripts\Kitchen\Cooking.cs" />
     <Compile Include="Assets\UI Toolkit\Scripts\TimerController.cs" />
+    <Compile Include="Assets\Scripts\HighScoreEndScene.cs" />
     <Compile Include="Assets\UI Toolkit\Scripts\fireButtons.cs" />
+    <Compile Include="Assets\Scripts\Kitchen\Table.cs" />
     <Compile Include="Assets\Scripts\Store\ShoppingList.cs" />
     <Compile Include="Assets\Scripts\Movement\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\HighscoreManager.cs" />
     <Compile Include="Assets\Scripts\Store\Items.cs" />
     <Compile Include="Assets\Scripts\Animations\AnimatorController.cs" />
     <Compile Include="Assets\Scripts\Store\ShoppingScript.cs" />
@@ -77,14 +80,17 @@
     <Compile Include="Assets\Scripts\Kitchen\Fridge.cs" />
     <Compile Include="Assets\Scripts\DataStore.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
-    <Compile Include="Assets\Scripts\Kitchen\Table.cs" />
-    <Compile Include="Assets\Scripts\HighscoreManager.cs" />
-    <Compile Include="Assets\Scripts\HighScoreEndScene.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\EndSceneUI.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Movement\PlayerPause.cs" />
+    <Compile Include="Assets\UI Toolkit\Scripts\MenuPick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\endscene.uxml" />
     <None Include="Assets\UI Toolkit\UXML files\endpointbuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -92,6 +98,7 @@
     <None Include="Assets\UI Toolkit\UXML files\cookText.uxml" />
     <None Include="Assets\UI Toolkit\UXML files\fridgebuttons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\menupick.uxml" />
     <None Include="Assets\UI Toolkit\UXML files\timerLabel.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -111,9 +118,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\UI Toolkit\UXML files\airfryButtons.uxml" />
+    <None Include="Assets\UI Toolkit\UXML files\pausemenu.uxml" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\UI Toolkit\UXML files\cookfireButtons.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\UI Toolkit\UXML files\mainmenu.uxml" />
     <None Include="Assets\Fonts\Permanent_Marker\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>

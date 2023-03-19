@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        DestroyButtons();
     }
 
     // Update is called once per frame
@@ -67,5 +68,14 @@ public class PlayerController : MonoBehaviour
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x)*speed;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void DestroyButtons()
+    {
+        foreach (var buttons in DataStore.Instance.shopButtons)
+        {
+            Destroy(buttons);
+            DataStore.Instance.shopButtons.Remove(buttons);
+        }
     }
 }

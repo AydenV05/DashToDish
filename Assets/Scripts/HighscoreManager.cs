@@ -16,6 +16,10 @@ public class HighscoreManager : MonoBehaviour
 
     Dishes dish = DataStore.Instance.selectedDish;
 
+    private void Start()
+    {
+        AddHighscore(DataStore.Instance.selectedDish.ToString());
+    }
     private void Awake()
     {
         LoadHighscores();

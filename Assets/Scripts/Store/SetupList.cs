@@ -12,7 +12,7 @@ public enum Dishes
 
 public class SetupList : MonoBehaviour
 {
-    [SerializeField] Dishes dish=Dishes.None;
+    Dishes dish=DataStore.Instance.selectedDish;
 
     List<string> Ingreds = new List<string>();
 

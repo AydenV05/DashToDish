@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Images/DTDbg.jpg?fileID=2800000&amp;guid=82503937c3146724e8309fd9c6427e81&amp;type=3#DTDbg&apos;); width: 640px; height: 524px;">
+        <ui:Button display-tooltip-when-elided="true" name="PlayButton" style="height: 72px; width: 189px; left: 50%; top: 30%; background-color: rgba(188, 188, 188, 0); font-size: 40px; color: rgb(0, 4, 255); background-image: url(&apos;project://database/Assets/Images/ButtonImages/PlayButton.png?fileID=21300000&amp;guid=1fe1baad0785e4b4981b36300a3536cf&amp;type=3#PlayButton&apos;); -unity-background-scale-mode: scale-and-crop;" />
+    </ui:VisualElement>
+</ui:UXML>

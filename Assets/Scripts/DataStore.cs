@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class DataStore
@@ -28,7 +29,7 @@ public class DataStore
 
     public string PickedUpItem = string.Empty;
 
-    public Dishes selectedDish;
+    public Dishes selectedDish=Dishes.None;
 
     //HighScores
     public float HSSpaghetti;
@@ -41,12 +42,19 @@ public class DataStore
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        StackTrace stackTrace = new StackTrace();
+        StackFrame callingFrame = stackTrace.GetFrame(1);
+        string callingScript = callingFrame.GetMethod().DeclaringType.Name;
+
+        UnityEngine.Debug.Log($"LockMouse() called from {callingScript}");
     }
 
     public void UnlockMouse()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        UnityEngine.Debug.Log("Mouse unlocked");
     }
     
     public static DataStore Instance

@@ -13,51 +13,37 @@
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
             {
-                "m_OpenUSSFiles": [
-                    {
-                        "m_StyleSheet": {
-                            "fileID": 7433441132597879392,
-                            "guid": "68812d6104e838046a834a99d14a6d6e",
-                            "type": 3
-                        },
-                        "m_BackupStyleSheet": {
-                            "instanceID": 0
-                        },
-                        "m_OldPath": "Assets/UI Toolkit/Stylesheets/stylesheet.uss"
-                    }
-                ],
+                "m_OpenUSSFiles": [],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/timerLabel.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/UXML files/menupick.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "66ff41bcbd305d44a8d9bd8a8616bba5",
+                    "guid": "951a92c3924ee0947887051332a5bd11",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "fileID": 7433441132597879392,
-                    "guid": "68812d6104e838046a834a99d14a6d6e",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "66ff41bcbd305d44a8d9bd8a8616bba5",
-                    "UxmlPath": "Assets/UI Toolkit/UXML files/timerLabel.uxml",
+                    "UxmlGuid": "951a92c3924ee0947887051332a5bd11",
+                    "UxmlPath": "Assets/UI Toolkit/UXML files/menupick.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 787,
-                    "CanvasHeight": 442,
+                    "CanvasWidth": 640,
+                    "CanvasHeight": 480,
                     "MatchGameView": true,
-                    "ZoomScale": 0.75,
+                    "ZoomScale": 1.0,
                     "PanOffset": {
-                        "x": -76.10015869140625,
-                        "y": 140.94288635253907
+                        "x": 144.0,
+                        "y": 74.20001220703125
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
                     "CameraModeCanvasBackgroundOpacity": 1.0,
                     "EnableCanvasBackground": false,
-                    "CanvasBackgroundMode": 0,
+                    "CanvasBackgroundMode": 1,
                     "CanvasBackgroundColor": {
                         "r": 0.0,
                         "g": 0.0,

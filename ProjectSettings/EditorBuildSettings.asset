@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/KitchenScene.unity
-    guid: b997087487f90bb43b263ade63752ead
+    path: Assets/Scenes/MainMenu.unity
+    guid: f485e5066454b4743bf718be52c79a8f
+  - enabled: 1
+    path: Assets/Scenes/DishPickScene.unity
+    guid: 3b1e67bf9a2b56f4892f853a06e1cd9b
   - enabled: 1
     path: Assets/Scenes/StoreScene.unity
     guid: 55aa9b6d3cb34cd4d95dc68cb42d6fc1
+  - enabled: 1
+    path: Assets/Scenes/KitchenScene.unity
+    guid: b997087487f90bb43b263ade63752ead
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: db69fe8391da57e478e92bdb2fd4a455

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button display-tooltip-when-elided="true" name="HomeButton" style="background-image: url(&apos;project://database/Assets/Images/ButtonImages/PauseButtonHome.png?fileID=2800000&amp;guid=1cab543e2a3918245b11a9f74c82f29c&amp;type=3#PauseButtonHome&apos;); height: 33%; width: 33%; left: 34px; top: 147px; background-color: rgba(188, 188, 188, 0); position: absolute;" />
+    <ui:Button display-tooltip-when-elided="true" name="ResumeButton" style="left: 320px; top: 147px; background-image: url(&apos;project://database/Assets/Images/ButtonImages/PauseButtonResume.png?fileID=2800000&amp;guid=9ca95d947505b12479ea29280c1573ad&amp;type=3#PauseButtonResume&apos;); width: 33%; height: 33%; background-color: rgba(188, 188, 188, 0); position: absolute;" />
+</ui:UXML>

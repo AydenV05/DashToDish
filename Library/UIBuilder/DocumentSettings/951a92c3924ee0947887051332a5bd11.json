@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "951a92c3924ee0947887051332a5bd11",
+    "UxmlPath": "Assets/UI Toolkit/UXML files/menupick.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 790,
+    "CanvasHeight": 444,
+    "MatchGameView": true,
+    "ZoomScale": 1.0,
+    "PanOffset": {
+        "x": 144.0,
+        "y": 74.20001220703125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 1,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}
